@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Quiz</title>
+
+  <style>
+    .answers {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: baseline;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>jQuery Quiz</h1>
+  <div id="container">
+    <h2>Question 0</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis alias error ipsam, a voluptatem quaerat, culpa quidem aperiam sequi nisi saepe tenetur temporibus perspiciatis consequatur nobis. Vel, quia necessitatibus.</p>
+
+    <div class="answers">
+      <label><input type="radio" name="question" data-answer="correct">Answer 1</label>
+      <label><input type="radio" name="question">Answer 2</label>
+      <label><input type="radio" name="question">Answer 3</label>
+    </div>
+
+  </div>
+  <button>Submit Answer</button>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
